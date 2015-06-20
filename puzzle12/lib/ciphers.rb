@@ -71,9 +71,9 @@ class VigenereCipher
 
 end
 
-# c = CaesarCipher.new("UREXVIFLJ")
-# key = c.candidates.first
-# puts key
+c = CaesarCipher.new("zrffntr".upcase!)
+key = c.candidates
+puts key
 # v = VigenereCipher.new(key)
 # puts v.decrypted_message
 # binding.pry
